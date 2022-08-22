@@ -1,0 +1,90 @@
+.container {
+    width: 1171px;
+    height: 630px;
+    border: 1px solid #ec7979;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.container__title {
+    width: 1170px;
+    height: 150px;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+}
+.container__line {
+    width: 170px;
+    height: 1px;
+    align-self: center;
+}
+.container__slogan {
+    width: 1169px;
+    height: 21px;
+    font-size: 18px;
+    color: #86878b;
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.content__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.content__text {
+    width: 370px;
+    height: 180px;
+    background: #e2e2e2;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #86878b;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content__author {
+    position: relative;
+}
+.content__icon {
+    position: absolute;
+    top: 50px;
+    left: -95px;
+}
+.content__desc {
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+}
+h4 {
+    width: 269px;
+    height: 54px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 700;
+}
+.content__name {
+    width: 270px;
+    height: 21px;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+}
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #e2e2e2;
+    position: absolute;
+    top: 178px;
+    left: 30px;
+}
